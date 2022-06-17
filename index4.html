@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="bg-black p-3">
+        <div class="flex justify-between px-56">
+            <a href="https://penpot.app" class="flex items-center">
+                <img src="2.png" alt="Logo" class="w-12">
+                <span class="text-xl text-gray-300">Penpot</span>
+            </a>
+            <div class="flex">
+                <button type="button"
+                    class="h-10 text-black bg-emerald-300 hover:bg-slate-100 hover:transition hover:duration-500 font-medium rounded-md text-sm text-center px-4 my-1">Try
+                    penpot - it`s free</button>
+            </div>
+        </div>
+    </nav>
+    <header class="flex sticky top-0 z-10 px-56 border-b-2 bg-white">
+        <section class="py-5 ">
+            <nav class="space-x-16 flex items-center">
+                <a href="#" class="text-gray-500 text-xl px-6">Help center</a>
+                <div class="lg:block hidden">
+                    <ul class="flex space-x-12 justify-betwen mx-56">
+                        <li class="hidden md:block "><a href="file:///C:/Users/Admin/Desktop/tailwind/index.html""
+                                class="hover:border-b-2 hover:text-emerald-200">Home</a>
+                        </li>
+                        <li><a href="file:///C:/Users/Admin/Desktop/tailwind/index2.html" class="hover:border-b-2 hover:text-emerald-300">User guide</a></li>
+                        <li><a href="file:///C:/Users/Admin/Desktop/tailwind/index3.html" class="hover:border-b-2 hover:text-emerald-300">Contributing</a></li>
+                        <li><a href="file:///C:/Users/Admin/Desktop/tailwind/index4.html"
+                                class="border-b-2 border-black font-bold hover:border-b-2  hover:text-emerald-300">Technical
+                                Guide</a></li>
+                        <li><a href="file:///C:/Users/Admin/Desktop/tailwind/index5.html" class=" hover:border-b-2  hover:text-emerald-300">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+                <section class="flex items-center space-x-5">
+                    <div>
+                        <ul class="flex items-center space-x-5 ml-8">
+                            <li class="lg:block hidden">
+                                <div class="relative">
+                                    <div class="absolute left-1.5 top-1.5">
+                                        <svg class="w-5 h-5 text-gray-500 ml-24" fill="currentColor" viewBox="0 0 20 20"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <input type="search"
+                                        class="w-32 h-9  border-2 focus:bg-gray-100 focus:ring-2 ring-black focus:outline-none pl-2 pb-1"
+                                        placeholder="search..">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </nav>
+        </section>
+    </header>
+    
+    <main class="block p-4">
+        <div class="flex ">
+            <div class="max-w-4xl">
+                <aside class="flex sticky top-20 z-12">
+                    <div class="">
+                        <div class="mx-10 pl-60 ">
+                            <a class="text-2xl font-bold" href="">Overview</a>
+                            <ul class="mt-8 px-5 list-decimal">
+                                <li class="py-4 font-bold">Getting Started</li>
+                                <li class="py-4 font-bold">Advanced Configuration</li>
+                                <li class="py-4 font-bold">Architecture</li>
+                                <li class="py-4 font-bold">Developer Guide</li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+             
+             <div class="">
+                <div class="max-w-3xl mx-20">
+                    <div class="my-5"><img class="flex justify-center m-auto h-72 "
+                            src="https://help.penpot.app/img/home-techguide.png" alt=""></div>
+                    <h1 class="text-7xl py-20 font-bold leading-tight">Overview </h1>
+                    <p class="">This documentation intends to explain how to get Penpot application and run it locally, test
+                        it,
+                        or make changes to it.</p>
+                    <p class="py-5">There are two main options for creating a local on-premise instance:</p>
+                    <ol class="list-decimal pl-4 pb-10">
+                        <li class="py-5">Using the platform of our partner </li>
+                        <li>Doing the installation yourself with Docker.</li>
+    
+                    </ol>
+                    <div class="py-10 bg-cyan-200">
+                        <p class="px-8">If you don't have experience using Docker or if you want a fully automatically
+                            managed
+                            service, we recommend using Elestio. Otherwise, go for Docker.</p>
+                    </div>
+                    <ul class="list-disc px-5 pt-10">
+                        <li class="pb-5">
+                            <p>In the <a class="text-green-500 underline" href="">Install with Elestio</a>section, you can
+                                find
+                                details on how to open an Elestio account and create your Penpot instance.</p>
+                        </li>
+                        <li class="pb-5">
+                            <p>In the <a class="text-green-500 underline" href="">Install with Docker</a>section, you can
+                                find
+                                the official Docker installation guide.</p>
+                        </li>
+                        <li class="pb-5">
+                            <p>In the <a class="text-green-500 underline" href="">Configuration</a>section, you can find
+                                more
+                                advanced setup options.</p>
+                        </li>
+                        <li class="pb-5">
+                            <p>If you are a developer and want to get into the code, we recommend the <a href="">Developer
+                                    Guide</a>that explains how to properly setup a development environment and many other
+                                dev-oriented documentation.</p>
+                        </li>
+                    </ul>
+                </div>
+             </div>           
+        </div>
+    </main>
+
+    <div class="flex mx-auto justify-center border-t-2 border-dotted py-8">
+        <a class="underline text-green-400 hover:text-blue-500 hover:duration-500" href="#">Edit this page on GitHub</a>
+    </div>
+    <footer class="p-4 bg-black sm:p-6 ">
+        <div class="flex ml-48">
+            <div class="md:mb-0 pr-20">
+                <a class="flex flex-wrap py-10 px-20" href="https://penpot.app" class="flex items-center ">
+                    <img src="2.png" alt="Logo" class="w-12">
+                    <span class="text-white px-3 whitespace-nowrap text-3xl text-gray-300 self-center">Penpot</span>
+                </a>
+            </div>
+            <div class="grid grid-cols-4 gap-20 pl-10 mt-5">
+                <div>
+                    <ul class="text-white pt-10">
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Terms of service</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Privacy policy</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Cookie policy</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Date processing agreement</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-white pt-10">
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">User guide</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Contributing guide</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Technical guide</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-white pt-10">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">The Project</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">About us </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Communiry</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Newsletter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-white pt-10">
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Twitter</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class=hover:text-green-400">Instagram </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Github</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Linkedin</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Youtube</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Mastodon</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-green-400">Product Hunt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center items-center p-10">
+            <span class="text-md text-gray-500 sm:text-center dark:text-gray-400">Penpot @2022 | Made with LOVE
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>
